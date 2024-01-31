@@ -1,7 +1,17 @@
 body {
-    background-color: #3d5a80;
+    background-color: #C0B7C4;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
-    color: red;
+    color: #2463D6;
+    text-decoration: black underline overline;
+    text-align: center;
+    text-transform: capitalize;
 }
+h2{
+    color: #2463D6;
+}
+#box{
+    background-color: #740474;
+}   
