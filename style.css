@@ -1,35 +1,47 @@
-body {
-    background-color: rgb(10, 4, 10);
-    font-family: 'Times New Roman', Times, serif;
-  }
+body{
+  background-color: rgb(17, 1, 22);
+  color: rgb(237, 232, 247);
   
-  h2 {
-    color: #2463D6;
+}
+#container{
+  display: inline-flex;
+  position: fixed;
+  align-items: center;
+}
+#balls{
+  border: 0px black;
+  display: inline-block;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
   }
-  
-  #box {
-    background-color: rgb(114, 235, 114);
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+  #btton{
+    background-color: rgb(99, 77, 121);
+    color: rgb(255, 255, 255);
+    border: 0px rgb(0, 0, 0);
+    padding: 5px;
+    right: 20px;
+    border-radius: 5%;
+    position: inherit;
+    cursor: pointer; 
+    transition : all 0.5 s ease-in;  
+   
   }
-  
-  #innerbox {
-    background-color: rgb(240, 90, 90);
-    margin-top: -20px;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin-left: 50px;
+  #btton:hover{
+    background-color: rgb(206, 199, 212);
+    color: black;
+    transform: scale(1.2,1.2);
   }
-  
-  #innerbox2 {
-    background-color: rgb(166, 136, 221);
-    margin-top: -20px;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin-left: 80px;
+  #para1{
+    padding-top:60px;
   }
+  #footermain{
+  text-align: center;
+  bottom: 10px;
+  background-color: rgb(5, 4, 4);
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  align-items: center;
+}
