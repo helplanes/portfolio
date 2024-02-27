@@ -1,55 +1,64 @@
-body{
-  background-color: rgb(17, 1, 22);
-  color: rgb(237, 232, 247);
+*{
+    margin: 0;
+    background-color: rgb(17, 1, 22);
+    color: rgb(206, 201, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+.navbar{
+    height: 35px;
+    padding: 10px;   
+    position: static;
+    display: flex;
+    border: 3px solid black;
+    justify-content: space-between;
+}
+
+/** Hello Typing Animation **/
+.nav-intro{
+    font-size: 25px;
+    display: inline-block;
+}
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 255, 255);
+    font-size: 25px;
+    width: 0;
+    animation: typing 1s steps(8, end) forwards;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
   
-}
-#container{
-  display: inline-flex;
-  position: fixed;
-  align-items: center;
-}
-#balls{
-  border: 0px black;
-  display: inline-block;
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  margin: 5px;
-  }
-  #btton{
-    background-color: rgb(99, 77, 121);
-    color: rgb(255, 255, 255);
-    border: 0px rgb(0, 0, 0);
-    padding: 5px;
-    right: 20px;
+/** Contact Me Button Styling **/
+.nav-button{
+    color: rgb(168, 162, 162);
+    border: 4px solid rgb(99, 77, 121);
+    opacity: 80%;
     border-radius: 5%;
-    position: inherit;
     cursor: pointer; 
-    transition : all 0.5 s ease-in;  
-   
-  }
-  #btton:hover{
+    transition : all 0.5s ease-in; 
+}
+.nav-button:hover{
     background-color: rgb(206, 199, 212);
     color: black;
     transform: scale(1.2,1.2);
+    opacity: 100%;
   }
-  #para1{
-    padding-top:60px;
-  }
-  #footermain{
-  text-align: center;
-  bottom: 10px;
-  background-color: rgb(5, 4, 4);
+
+/** SideBar Styling **/
+.sidebar{
+    border: 3px solid black;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    
+}
+.sidebar-content{
   display: flex;
   justify-content: center;
-  padding: 5px;
-  align-items: center;
-}
-section{
-  position: fixed;
-  width: 20%;
-  height: 100%;
-  margin-top: 50px;
-  opacity: 90%;
-  background-color: rgb(81, 66, 121);
+  align-content: center;
+  padding: 20px;
 }
