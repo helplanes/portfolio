@@ -45,3 +45,11 @@ body{
   padding: 5px;
   align-items: center;
 }
+section{
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  margin-top: 50px;
+  opacity: 90%;
+  background-color: rgb(81, 66, 121);
+}
