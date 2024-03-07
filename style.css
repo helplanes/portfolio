@@ -3,9 +3,11 @@
     color: rgb(241, 241, 241);
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
+    scroll-behavior: smooth;
 }
 body{
-  background-color: rgb(34, 33, 33);
+  background-image: url(material/Untitled\ design.gif);
+  background-size: cover;
   position: relative;
 }
 header{
@@ -20,7 +22,7 @@ header{
 .navbar{
     height: 35px;
     padding: 10px;
-    position: sticky;
+    position: static;
     display: flex;
     border: 1px solid rgb(0, 0, 0);
     justify-content: space-between; 
@@ -87,6 +89,9 @@ header{
   font-weight: 500;
   text-align: center;
 }
+.intro-username{
+  text-align: center;
+}
 .intro-disc{
   padding-top: 20px;
   font-size: 18px;
@@ -138,4 +143,58 @@ header{
 .portfolio-start p{
   font-size: smaller;
   font-family: 'Courier New', Courier, monospace;
-} 
+}
+/**TECH STACK**/
+.techstack{
+  padding: 40px;
+  padding-bottom: 50px;
+}
+.techstack-intro{
+  padding-bottom: 25px;
+}
+.stacks{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  background-color: #1c1b23;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.stacks p{
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #0b0b0e;
+  padding: 10px;
+  text-align: center;
+  margin: 7px;
+  color: rgb(226, 210, 210);
+}
+
+#titles{
+  color: rgb(226, 210, 210);
+  padding-bottom: 5px;
+  text-align: center;
+}
+.projects{
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+.divs{
+  border: 1px solid black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 180px;
+  height: 100px;
+  background-size: cover;
+  color:transparent"
+}
