@@ -182,19 +182,42 @@ header{
   padding-bottom: 5px;
   text-align: center;
 }
+
+/**PROJECTS**/
 .projects{
   justify-content: space-evenly;
   display: flex;
   align-items: center;
 }
-.divs{
+.project-img{
   border: 1px solid black;
   border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  width: 180px;
-  height: 100px;
+  width: 220px;
+  height: 130px;
   background-size: cover;
   color:transparent"
+}
+.project-info{
+  border: 1px solid black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 220px;
+  height: auto;
+  text-align: left;
+  
+}
+.project-info p{
+  color: black;
+  font-weight: 550;
+  font-size: large;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace
+}
+#p-1{
+  color: ;
+  font-weight: 500;
+  font-size: small;
+  padding-top: 0;
+  padding-bottom: 20px;
 }
