@@ -158,7 +158,7 @@ header{
 /**TECH STACK**/
 .techstack{
   padding: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 .techstack-intro{
   padding-bottom: 25px;
@@ -168,6 +168,8 @@ header{
   justify-content: space-evenly;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
   border: 1px solid black;
   background-color: #1c1b23;
   border-top-left-radius: 5px;
@@ -234,21 +236,78 @@ header{
 }
 
 /* FOOTER */
-footer{
+.footer-1{
   font-family: monospace; 
-}
-.contact-me{
-  font-size: 30px;
-  text-align: left;
+  display: flex;
   padding-left: 40px;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+}
+.contact-me{
+  width: 50%;
+  font-size: 35px;
+  text-align: left;
+  display: block;
 }
 .contact-me p{
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   font-family: 'Franklin Gothic Medium';
 }
 .contact-me-details{
-  font-size: 15px;
-  font-weight: 200;
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+#contact-details-1{
+  padding-bottom: 10px;
+}
+#contact-details-1 a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #00acff;
+}
+#contact-details-1 a:hover{
+  font-size: large;
+  color: pink;
+}
+
+/**SITE MAP**/
+.site-map{
+  font-size: 35px;
+  text-align: left;
+
+}
+.site-map p{
+  padding-bottom: 0px;
+  font-family: 'Franklin Gothic Medium';
+}
+.site-map-details{
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+#site-details-1{
+  padding-bottom: 10px;
+}
+#site-details-1 a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #00acff;
+}
+#site-details-1 a:hover{
+  font-size: large;
+  color: pink;
+}
+.footer-2{
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: rgba(12, 14, 12, 0.5);
+}
+.footer-2 p{
+  font-family: 'Courier New', Courier, monospace; 
+  letter-spacing: 0%;
+  opacity: 100%;
+  font-weight: 900;
 }
