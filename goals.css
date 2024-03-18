@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    color: rgb(241, 241, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(material/Untitled\ design.gif);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+header{
+    font-weight: 700;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    min-height: 100%;
+  }
+.navbar{
+    height: 35px;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #1f1e1e;
+}
+/** Hello Typing Animation **/
+.nav-intro{
+    font-size: 25px;
+    display: inline-block;
+}
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 255, 255);
+    font-size: 25px;
+    width: 0;
+    animation: typing 3s steps(20, end) forwards;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+/** Contact Me Button Styling **/
+.menubar-content:hover{
+    background-color: rgb(236, 220, 245);
+    color: rgb(48, 46, 46);
+    font-weight: 500; 
+  }
+
+/** SideBar Styling **/
+.menubar{
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    position: absolute;
+    right: 25px;
+}
+.menubar-content{
+  display: inline;
+  font-size: 1.2rem;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.intro-name{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 15%;
+  }
+  .intro-name p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+  }
+  .mini-name{
+    text-align: center;
+    font-weight: 800;
+  }
+  .intro-disc{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+  .intro-disc p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+  } 
+
+  .hello-intro{
+    background-color: rgb(255, 202, 202);
+    color: #000000;
+    padding-bottom: 30px;
+  }
+
+  .hello-intro h1{
+    color: rgb(44, 39, 39);
+    padding: 40px;
+    padding-bottom: 10px;
+  }
+  .hello-intro p{
+    color: #1f1e1e;
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+  .hello-intro b{
+    color: #1f1e1e; 
+  }
+  .hello-intro code{
+    color: #1f1e1e;
+    background-color: blanchedalmond;
+  }
+  .goals-intro{
+    padding: 50px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .goals-title{
+    background-color: papayawhip;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: -40px;
+  }
+  .goals-title h1{
+    color: #1f1e1e;
+  }
+  .goals-title ul{
+    padding-top: 20px;
+    padding-left: 55px;
+  }
+  .goals-title li{
+    color: #1f1e1e;
+    padding-bottom: 15px;
+  }
+  .goals-title s{
+    text-decoration: line-through;
+    color: #1f1e1e;
+  }
+
+  .goals-title a{
+    color: blue;
+    text-decoration: none;
+  }
+#space{
+  padding-bottom: 25px;
+}
+  /* FOOTER */
+.footer-1{
+  font-family: monospace; 
+  display: flex;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.contact-me{
+  width: 50%;
+  font-size: 35px;
+  text-align: left;
+  display: block;
+}
+.contact-me p{
+  padding-bottom: 0px;
+  font-family: 'Franklin Gothic Medium';
+}
+.contact-me-details{
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+#contact-details-1{
+  padding-bottom: 10px;
+}
+#contact-details-1 a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #00acff;
+}
+#contact-details-1 a:hover{
+  font-size: large;
+  color: pink;
+}
+
+/**SITE MAP**/
+.site-map{
+  font-size: 35px;
+  text-align: left;
+
+}
+.site-map p{
+  padding-bottom: 0px;
+  font-family: 'Franklin Gothic Medium';
+}
+.site-map-details{
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+#site-details-1{
+  padding-bottom: 10px;
+}
+#site-details-1 a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #00acff;
+}
+#site-details-1 a:hover{
+  font-size: large;
+  color: pink;
+}
+.footer-2{
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: rgba(12, 14, 12, 0.5);
+}
+.footer-2 p{
+  font-family: 'Courier New', Courier, monospace; 
+  letter-spacing: 0%;
+  opacity: 100%;
+  font-weight: 900;
+}
