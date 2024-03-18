@@ -1,11 +1,13 @@
 # Portfolio Website
 ![image](https://github.com/helplanes/portfolio/assets/116503703/6a54f5c8-93bf-4636-9c77-a0ae0af39a09)
+Check out the live demo, hosted on vercel.app:- [helplanes' portfolio](https://portfolio-mu-red-54.vercel.app/index.html)
 
 
 Welcome to my portfolio website repository! This project marks my first dive into web development. While the website may be basic in design and functionality, it serves as a crucial stepping stone in my journey to mastering web development, as well as brushes my skills in these languages.
 
 ## About
 This portfolio website showcases my skills, projects, and experiences in a simple yet elegant manner. It reflects not only my technical abilities but also my dedication to learning and improving as a developer. 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) 
 
 ## Features
 - Clean and minimalist design
