@@ -1,5 +1,5 @@
 # Portfolio Website
-![webpage](https://github.com/helplanes/portfolio/assets/116503703/5fb59054-2c96-4dc7-b9ee-f77a134e82ba)
+![image](https://github.com/helplanes/portfolio/assets/116503703/6a54f5c8-93bf-4636-9c77-a0ae0af39a09)
 
 
 Welcome to my portfolio website repository! This project marks my first dive into web development. While the website may be basic in design and functionality, it serves as a crucial stepping stone in my journey to mastering web development, as well as brushes my skills in these languages.
@@ -10,7 +10,7 @@ This portfolio website showcases my skills, projects, and experiences in a simpl
 ## Features
 - Clean and minimalist design
 - Easy navigation
-- Sections for showcasing projects, skills, and contact information
+- Sections for showcasing projects, skills, and contact information, and mainly the most special [GOALS SECTION](https://portfolio-mu-red-54.vercel.app/goals.html)
 - Not Fully Responsive (I will keep updating this website ocassioally until it reaches perfection)
 
 ## Purpose
