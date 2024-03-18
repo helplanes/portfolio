@@ -1,5 +1,6 @@
 # Portfolio Website
-![Page](https://github.com/helplanes/portfolio/assets/116503703/70425fd5-0968-4aac-8bf5-1a075b1ff52c)
+![webpage](https://github.com/helplanes/portfolio/assets/116503703/5fb59054-2c96-4dc7-b9ee-f77a134e82ba)
+
 
 Welcome to my portfolio website repository! This project marks my first dive into web development. While the website may be basic in design and functionality, it serves as a crucial stepping stone in my journey to mastering web development, as well as brushes my skills in these languages.
 
