@@ -6,8 +6,8 @@ Check out the live demo, hosted on vercel.app:- [helplanes' portfolio](https://p
 Welcome to my portfolio website repository! This project marks my first dive into web development. While the website may be basic in design and functionality, it serves as a crucial stepping stone in my journey to mastering web development, as well as brushes my skills in these languages.
 
 ## About
-This portfolio website showcases my skills, projects, and experiences in a simple yet elegant manner. It reflects not only my technical abilities but also my dedication to learning and improving as a developer. 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) 
+This portfolio website showcases my skills, projects, and experiences in a simple yet elegant manner. It reflects not only my technical abilities but also my dedication to learning and improving as a developer. <br>
+Made purely with ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) 
 
 ## Features
 - Clean and minimalist design
