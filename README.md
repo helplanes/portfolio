@@ -1,5 +1,6 @@
 # Portfolio Website
-![image](https://github.com/helplanes/portfolio/assets/116503703/6a54f5c8-93bf-4636-9c77-a0ae0af39a09)
+![image](https://github.com/helplanes/portfolio/assets/116503703/3d20f362-6405-400b-9ab8-927b0753e859)
+)
 Check out the live demo, hosted on vercel.app:- [helplanes' portfolio](https://portfolio-mu-red-54.vercel.app/index.html)
 
 
