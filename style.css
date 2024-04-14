@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 body{
-  background-image: url(material/Untitled\ design.gif);
+  background-color: #000000;
   background-size: cover;
   position: relative;
   background-attachment: fixed;
@@ -28,8 +28,8 @@ header{
     padding: 10px;
     position: fixed;
     display: flex;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: #1f1e1e;
+    border: 1px solid rgb(24, 24, 24);
+    background-color: #000000;
 }
 
 /** Hello Typing Animation **/
@@ -42,7 +42,7 @@ header{
     border-right: .15em solid rgb(255, 255, 255);
     font-size: 25px;
     width: 0;
-    animation: typing 3s steps(20, end) forwards;
+    animation: typing 3s steps(20, end) forwards; 
   }
   @keyframes typing {
     from { width: 0 }
@@ -58,7 +58,7 @@ header{
 
 /** SideBar Styling **/
 .menubar{
-    border: 1px solid black;
+    border: 1px solid rgb(26, 25, 25);
     padding-top: 5px;
     padding-bottom: 5px;
     border-top-left-radius: 3px;
@@ -121,6 +121,7 @@ header{
 }
 .social-logos :hover{
   border: 2px solid grey;
+  position: static;
 }
 
 /** HEADER DONE**/

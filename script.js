@@ -1,3 +1,8 @@
-fullName = "Krish Bhagwat";
-age = 21;
-console.log(fullName, age);
+const profile = {
+    username : "@krish.ion",
+    isFollow : false,
+    followers : 265,
+    following : 150,
+};
+
+console.log(profile);

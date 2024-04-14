@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 750px) {
+  .menubar-content {
+      display: none; /* Hide menu content by default on small screens */
+  }
+
+  .menubar .menubar-toggle {
+     /* Show the toggle button on small screens */
+      cursor: pointer;
+      display: list-item;
+      padding: 10px;
+  }
+}
