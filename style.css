@@ -68,6 +68,47 @@ header{
     position: absolute;
     right: 25px;
 }
+.menubar-mobile{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 30px;
+}
+@media only screen and (min-width: 850px){
+  .menubar-mobile{
+    display: none;
+  }
+}
+input, ul.submenu {  
+  display: none;  
+  list-style:none;  
+  text-decoration: none;  
+  font-weight: bolder;  
+  margin-top: 15px;  
+}
+label {  
+  position: relative;  
+  display: block;  
+  cursor: pointer;  
+  background: transparent;    
+  color: white;
+  
+  font-weight: bolder;  
+}
+
+input:checked~ul.submenu {  
+  display: block; 
+  }
+
+@media only screen and (max-width: 850px) {
+  .menubar {
+      display: none;
+  }
+}
+
 .menubar-content{
   display: inline;
   font-size: 1.2rem;
@@ -301,6 +342,13 @@ header{
   padding-bottom: 0px;
   font-family: 'Franklin Gothic Medium';
 }
+
+@media only screen and (max-width: 800px) {
+  .site-map {
+      display: none;
+  }
+}
+
 .site-map-details{
   font-size: 16px;
   font-weight: 700;
