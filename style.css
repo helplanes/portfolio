@@ -395,6 +395,17 @@ input:checked~ul.submenu {
   font-size: large;
   color: pink;
 }
+
+.top-button{
+  display: flex;
+  position: absolute;
+  right: 30px;
+  font-size: 40px;
+  bottom: 50px;
+  opacity: 0.8;
+}
+
+
 .footer-2{
   padding-left: 25px;
   padding-top: 10px;
