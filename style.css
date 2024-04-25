@@ -333,6 +333,35 @@ input:checked~ul.submenu {
 }
 
 /**SITE MAP**/
+@media only screen and (max-width: 850px){
+  .dev-intro{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 850px){
+  .dev-intro{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(37, 35, 35); 
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 850px){
+  .dev-intro-mobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  .dev-intro-mobile{
+    display: flex; 
+    justify-content: center; 
+    background-color: rgb(37, 35, 35); 
+    border-radius: 10px;
+  }
+}
 .site-map{
   font-size: 35px;
   text-align: left;
